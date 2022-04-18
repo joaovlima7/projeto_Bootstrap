@@ -26,47 +26,52 @@
 
 <body>
     
-    <h1 class="display-5 mt-4">Trabalhando com Grid</h1>
-    <h1 class="display-5 p-2">Dividindo a Row</h1>
+    <h1 class="display-5 p-2">Dividindo a Row com Breakpoints</h1>
     <hr>
 
-    <!--Criando a área de conteúdo: Flexbox-->
+    <!--Criando a área de comteúdo: Flexbox-->
     <div class="container mostrar-container mt-2">
 
         <!--Linha 1-->
         <div class="row">
-
             <!--Coluna 1-->
-            <div class="col-4 conteudo">Conteúdo com 4/12 colunas</div>
+            <div class="col-6 conteudo">Conteúdo 1</div>
             <!--Coluna 2-->
-            <div class="col-4 conteudo">Conteúdo com 4/12 colunas</div>
-            <!--Coluna 3-->
-            <div class="col-4 conteudo">Conteúdo com 4/12 colunas</div>
-
+            <div class="col-6 conteudo">Conteúdo 2</div>
         </div>
 
-        <!--Linha 2-->
         <div class="row">
-
-            <!---->
-            <div class="col-6 conteudo">Conteúdo com 6/12 colunas</div>
-            <!---->
-            <div class="col-6 conteudo">Conteúdo com 6/12 colunas</div>
-
+            <!--Linha 1-->
+            <!--Coluna 1-->
+            <div class="col-6 col-sm-3 conteudo">Conteúdo 3</div>
+            <!--Coluna 2-->
+            <div class="col-6 col-sm-9 conteudo">Conteúdo 4</div>
         </div>
 
-        <!--Linha 3-->
         <div class="row">
-
-            <!--Coluna 1 a 6-->
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
-
+            <!--Linha 3-->
+            <!--Coluna 1-->
+            <div class="col-6 col-md-9 conteudo">Conteúdo  5</div>
+            <!--Coluna 2-->
+            <div class="col-6 col-md-3 conteudo">Conteúdo 6</div>
         </div>
+
+        <div class="row">
+            <!--Linha 3-->
+            <!--Coluna 1-->
+            <div class="col-6 col-lg-6 conteudo">Conteúdo  7</div>
+            <!--Coluna 2-->
+            <div class="col-6 col-lg-6 conteudo">Conteúdo 8</div>
+        </div>
+
+        <div class="row">
+            <!--Linha 3-->
+            <!--Coluna 1-->
+            <div class="col-6 col-xl-3 conteudo">Conteúdo  9</div>
+            <!--Coluna 2-->
+            <div class="col-6 col-xl-9 conteudo">Conteúdo 10</div>
+        </div>
+
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
